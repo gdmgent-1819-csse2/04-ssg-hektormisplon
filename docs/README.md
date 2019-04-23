@@ -31,7 +31,15 @@ export default class Vector2 {
 add(v) {
     this.x += v.x
     this.x += v.y
-    this.z += v.z
+}
+```
+- subtract method
+  - this method expects the vector to be subtracted as an argument 'v'
+  - the subtract operation of two vectors consists of subtracting the corresponding positions of the two vectors
+```js
+subtract(v) {
+    this.x += v.x
+    this.x += v.y
 }
 ```
 
@@ -54,6 +62,8 @@ new TestVector2()
 
 ## Applying 'Clean Code' principles
 
+### Principles
+
 #### General rules
 
 1. Follow standard conventions.
@@ -62,6 +72,7 @@ new TestVector2()
 4. Always find root cause. Always look for the root cause of a problem.
 
 #### Design rules
+
 1. Keep configurable data at high levels.
 2. Prefer polymorphism to if/else or switch/case.
 3. Separate multi-threading code.
