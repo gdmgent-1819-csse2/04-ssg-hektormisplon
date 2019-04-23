@@ -8,9 +8,13 @@ Documentation for CSSE2 assignments
 # Assignments
 ## WebGL2 - Implementing & testing Matrix & Vector classes
 
+Get the demo code and follow along to see how we implement a new Vector class and write the tests for the operation methods of this class.
+
 ### Vectors
 
 #### Vector class
+
+In the Math folder
 
 1. Create a vector class called 'Vector2', when this class is initialized we want the constructor to take 2 arguments for the vector positions. These positions should be valid Numbers or else we make them 0.  
 ```js
@@ -24,18 +28,18 @@ export default class Vector2 {
 ```
 
 2. Next we add in the methods for the various vector operations e.g. add, subtract or scalar multiplication.
-- add method
-  - this method expects the vector to be added as an argument 'v'
-  - the add operation of two vectors consists of adding up the corresponding positions of the two vectors
+   - add method
+     - this method expects the vector to be added as an argument 'v'
+     - the add operation of two vectors consists of adding up the corresponding positions of the two vectors
 ```js
 add(v) {
     this.x += v.x
     this.x += v.y
 }
 ```
-- subtract method
-  - this method expects the vector to be subtracted as an argument 'v'
-  - the subtract operation of two vectors consists of subtracting the corresponding positions of the two vectors
+   - subtract method
+     - this method expects the vector to be subtracted as an argument 'v'
+     - the subtract operation of two vectors consists of subtracting the corresponding positions of the two vectors
 ```js
 subtract(v) {
     this.x += v.x
