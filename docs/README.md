@@ -3,14 +3,24 @@ ___
 
 # About
 
-> Documentation for previous CSSE2 assignments
+> Documentation for CSSE2 assignments
 
 # Assignments
-## Opdracht 01
-## Opdracht 02
-## Opdracht 03
-## SSG w/ markdown
+## WebGL2 - Implementing & testing Matrix & Vector classes
+
+### Vectors
+
+
+### Matrices
+
+## Canvas - Realtime clock using vector classes
+
+## Applying 'Clean Code' principles
+
+## Static Site Generator using markdown
+
 ### Showing code
+
 This is how we render some javascript code using markdown.
 ````markdown
     # Console log
